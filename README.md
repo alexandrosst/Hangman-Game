@@ -36,13 +36,13 @@
 	<li>Gson 2.8.9</li>
 </ul>
 
-## Εκτέλεση
+## Εκτέλεση εφαρμογής
 Για τη μεταγλώττιση χρησιμοποιούμε την εντολή:
 ```python
-	javac -d . -cp ".;libraries/Gson/gson-2.8.9.jar" --module-path "./libraries/JavaFX/lib" --add-modules javafx.controls,javafx.fxml *.java
+javac -d . -cp ".;libraries/Gson/gson-2.8.9.jar" --module-path "./libraries/JavaFX/lib" --add-modules javafx.controls,javafx.fxml *.java
 ```
 
 Για την εκτέλεση χρησιμοποιούμε την εντολή:
 ```python
-	java -cp ".;libraries/Gson/gson-2.8.9.jar" --module-path "./libraries/JavaFX/lib" --add-modules javafx.controls,javafx.fxml Main
+java -cp ".;libraries/Gson/gson-2.8.9.jar" --module-path "./libraries/JavaFX/lib" --add-modules javafx.controls,javafx.fxml Main
 ```
