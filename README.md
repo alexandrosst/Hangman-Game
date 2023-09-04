@@ -15,3 +15,10 @@
 	<li><p align="justify"><a href="https://github.com/alexandrosst/Hangman-Game/tree/main/resources/DictionaryInfo">DictionaryInfo</a> ⇝  Πρόκειται για το παράθυρο στο οποίο παρουσιάζει όλα τα στατιστικά στοιχεία για το τρέχον λεξικό.</p></li>
 	<li><p align="justify"><a href="https://github.com/alexandrosst/Hangman-Game/tree/main/resources/DisplayRounds">DisplayRounds</a> ⇝  Πρόκειται για το παράθυρο στο οποίο εμφανίζονται πληροφορίες για τα 5 τελευταία παιχνίδια. Κάθε παιχνίδι αποτελεί ένα αντικείμενο η έννοια του οποίου προσδιορίζεται στο αρχείο <a href="https://github.com/alexandrosst/Hangman-Game/blob/main/Rounds.java">Rounds.java</a>.</p></li>
 </ul> 
+
+## Απαιτήσεις
+<ul>
+	<li>windows 10/11</li>
+	<li>java 17.0.1</li>
+	<li>Gson 2.8.9</li>
+</ul>
