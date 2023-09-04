@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="390.0" prefWidth="350.0" style="-fx-background-color: #FEF5E7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SearchDictionaryController">
+   <children>
+      <VBox prefHeight="150.0" prefWidth="350.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="64.0" prefWidth="350.0">
+               <children>
+                  <Label contentDisplay="CENTER" prefHeight="51.0" prefWidth="300.0" text="Please fill in the following gap with a valid Dictionary ID &#10;of an already created Dictionary. Otherwise, an error&#10; will occur." textAlignment="CENTER" />
+               </children>
+            </VBox>
+            <VBox prefHeight="86.0" prefWidth="350.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="230.0" prefWidth="350.0">
+                     <children>
+                        <TextField fx:id="DictionaryID" alignment="CENTER" promptText="Dictionary ID">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </TextField>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+      <VBox layoutY="150.0" prefHeight="81.0" prefWidth="350.0" AnchorPane.bottomAnchor="119.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="150.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="150.0" prefWidth="350.0">
+               <children>
+                  <Button fx:id="SearchDictionaryButton" mnemonicParsing="false" onMouseClicked="#OnMouseClicked" prefHeight="62.0" prefWidth="147.0" text="Search &#10;Dictionary" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="58.0" fitWidth="61.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@SearchImage.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="SetCurrentDictionaryButton" disable="true" mnemonicParsing="false" onMouseClicked="#OnMouseClickforset" prefHeight="68.0" prefWidth="169.0" text="Set as current&#10;Dictionary" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@SetImage.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutY="271.0" prefHeight="150.0" prefWidth="350.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="271.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Status:" textAlignment="CENTER" underline="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="StatusMessage" alignment="CENTER" contentDisplay="CENTER" prefHeight="20.0" prefWidth="338.0" text="Waiting for input..." textAlignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="StatusImage" fitHeight="54.0" fitWidth="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@InputImage.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
