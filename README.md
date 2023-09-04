@@ -38,11 +38,11 @@
 
 ## Εκτέλεση
 Για τη μεταγλώττιση χρησιμοποιούμε την εντολή:
-<code>
+```python
 	javac -d . -cp ".;libraries/Gson/gson-2.8.9.jar" --module-path "./libraries/JavaFX/lib" --add-modules javafx.controls,javafx.fxml *.java
-</code>
+```
 
 Για την εκτέλεση χρησιμοποιούμε την εντολή:
-<code>
+```python
 	java -cp ".;libraries/Gson/gson-2.8.9.jar" --module-path "./libraries/JavaFX/lib" --add-modules javafx.controls,javafx.fxml Main
-</code>
+```
