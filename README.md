@@ -9,6 +9,6 @@
 ## Περιγραφή των αρχείων
 <p align="justify">Η εφαρμογή χρησιμοποιεί 5 διαφορετικούς τύπους παραθύρων, τα οποία σχεδιαστικά βρίσκονται στον κατάλογο <href a="https://github.com/alexandrosst/Hangman-Game/tree/main/resources">resources</href> ως <code>.fxml</code> αρχεία. Επιπλέον, σε κάθε παράθυρο προσδίδεται κάποια λειτουργικότητα με τη βοήθεια ενός αντιστοιχισμένου controller. Έχουμε λοιπόν τα ακόλουθα παράθυρα:</p>
 <ul>
-	<li><href a="https://github.com/alexandrosst/Hangman-Game/tree/main/resources/MainWindow">MainWindow</href> ⇝ Πρόκειται για το κύριο παράθυρο της εφαρμογής. Το παράθυρο στην αρχή είναι ανενεργό, καθότι χρειάζεται να προηγηθεί η επιλογή ενός λεξικού.</li>
-	<li><href a="https://github.com/alexandrosst/Hangman-Game/tree/main/resources/CreateNewDictionary">CreateNewDictionary</href> ⇝ Πρόκειται για το παράθυρο στο οποίο ο χρήστης δημιουργεί ένα νέο λεξικό δίνοντας ένα όνομα Dictionary ID. Τα λεξικά αποθηκεύονται στον κατάλογο <href a="https://github.com/alexandrosst/Hangman-Game/tree/main/medialab">medialab</href>.</li>
+	<li><p align="justify"><href a="https://github.com/alexandrosst/Hangman-Game/tree/main/resources/MainWindow">MainWindow</href> ⇝ Πρόκειται για το κύριο παράθυρο της εφαρμογής. Το παράθυρο στην αρχή είναι ανενεργό, καθότι χρειάζεται να προηγηθεί η επιλογή ενός λεξικού.</p></li>
+	<li><p align="justify"><href a="https://github.com/alexandrosst/Hangman-Game/tree/main/resources/CreateNewDictionary">CreateNewDictionary</href> ⇝ Πρόκειται για το παράθυρο στο οποίο ο χρήστης δημιουργεί ένα νέο λεξικό δίνοντας ένα όνομα Dictionary ID. Τα λεξικά αποθηκεύονται στον κατάλογο <href a="https://github.com/alexandrosst/Hangman-Game/tree/main/medialab">medialab</href></p>.</li>
 </ul> 
