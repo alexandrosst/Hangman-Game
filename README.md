@@ -7,4 +7,4 @@
 </ul>
 
 ## Περιγραφή των αρχείων
-<p align="justify">Η εφαρμογή χρησιμοποιεί 5 διαφορετικούς τύπους παραθύρων, τα οποία σχεδιαστικά βρίσκονται στον κατάλογο <href a="https://github.com/alexandrosst/Hangman-Game/tree/main/resources">resources</href> ως `.fxml` αρχεία. Επιπλέον, σε κάθε παράθυρο προσδίδεται κάποια λειτουργικότητα με τη βοήθεια ενός αντιστοιχισμένου controller.</p>
+<p align="justify">Η εφαρμογή χρησιμοποιεί 5 διαφορετικούς τύπους παραθύρων, τα οποία σχεδιαστικά βρίσκονται στον κατάλογο <href a="https://github.com/alexandrosst/Hangman-Game/tree/main/resources">resources</href> ως <code>.fxml</code> αρχεία. Επιπλέον, σε κάθε παράθυρο προσδίδεται κάποια λειτουργικότητα με τη βοήθεια ενός αντιστοιχισμένου controller.</p>
