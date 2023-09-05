@@ -46,7 +46,7 @@
 	<li>JavaFX 17.0.1</li>
 	<li>Gson 2.8.9</li>
 </ul>
-Σημειώνεται πως η Java πρέπει να είναι προεγκατεστημένη στο σύστημα. Στον κατάλογο <a href="https://github.com/alexandrosst/Hangman-Game/tree/main/libraries">libraries</a> περιέχονται τα αρχεία για την JavaFX και το Gson.
+<p align="justify">Σημειώνεται πως η Java πρέπει να είναι προεγκατεστημένη στο σύστημα. Στον κατάλογο <a href="https://github.com/alexandrosst/Hangman-Game/tree/main/libraries">libraries</a> περιέχονται τα αρχεία για την JavaFX και το Gson.</p>
 
 ## Εκτέλεση εφαρμογής
 Για τη μεταγλώττιση χρησιμοποιούμε την εντολή:
