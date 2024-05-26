@@ -1,0 +1,35 @@
+.root {
+    -fx-font-family: System;
+}
+
+.menu-item {
+    -fx-padding: 10px 15px 10px 15px;
+    -fx-background-color: RGBA(254, 245, 231, 1);
+    -fx-background-radius: 10px;
+}
+.menu-item:focused {
+    -fx-background-color: RGBA(198, 163, 106, 1);
+}
+
+.context-menu {
+    -fx-background-color: RGBA(254, 245, 231, 1);
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.menu {
+    -fx-padding: 10px 15px 10px 15px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.menu:showing, .menu:hover {
+    -fx-background-color: RGBA(211, 187, 148, 1);
+}
+
+.menu-bar {
+    -fx-background-color: RGBA(254, 245, 231, 1);
+}
+
+#windowID {
+    -fx-background-color: RGBA(254, 245, 231, 1);
+}

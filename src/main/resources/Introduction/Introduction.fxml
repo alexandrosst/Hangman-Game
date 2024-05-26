@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="274.0" style="-fx-background-color: #FCFEF8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="29.0" layoutY="34.0" text="Hangman: Can you save him in time?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="331.0" prefHeight="39.0" prefWidth="154.0" text="© 2024 Alexandros Stylos. All rights reserved." textAlignment="CENTER" wrapText="true" />
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="37.0" layoutY="89.0">
+         <image>
+            <Image url="@HangmanIntroImage.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
