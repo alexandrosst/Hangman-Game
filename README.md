@@ -1,7 +1,5 @@
 # 🎮 Hangman Game: A Classic Word-Guessing Challenge
-<div align="center">
 ![Static Badge](https://img.shields.io/badge/version-1.0.0-blue) ![Static Badge](https://img.shields.io/badge/java-22.0.1-blue) ![Static Badge](https://img.shields.io/badge/Apache%20Maven-3.9.6-blue) ![Static Badge](https://img.shields.io/badge/JavaFX-17.0.11-blue)
-</div>
 
 ## 📝 Introduction
 This application presents a traditional Hangman Game, built with JavaFX. Hangman stands as a timeless word-guessing game that puts players to the test as they strive to unravel a concealed word, one letter at a time.
